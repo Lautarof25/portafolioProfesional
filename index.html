@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Y&eacute;sica Chevichuk - Gesti&oacute;n y Marketing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#" class="navbar__logo">Y&eacute;sica</a>
+      <ul class="navbar__menu">
+        <li><a href="#sobre-mi">Sobre m&iacute;</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educaci&oacute;n</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero__bg">
+      <svg class="hero__bg-wave" viewBox="0 0 1440 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0H1440V800C1440 800 1200 700 720 700C240 700 0 800 0 800V0Z" fill="url(#hero-grad)" />
+        <path d="M0 720C360 680 720 780 1440 720V800H0V720Z" fill="#f8fbff" />
+        <defs>
+          <linearGradient id="hero-grad" x1="0" y1="0" x2="1440" y2="800" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#f0f7ff" />
+            <stop offset="1" stop-color="#ffffff" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <div class="hero__accent-blob hero__accent-blob--1"></div>
+      <div class="hero__accent-blob hero__accent-blob--2"></div>
+    </div>
+
+    <div class="container hero__grid">
+      <div class="hero__content reveal reveal--fade-right">
+        <div class="hero__badge">Hola, soy Y&eacute;sica Chevichuk</div>
+        <h1 class="hero__title">
+          T&eacute;cnica en<br>
+          <span>Administraci&oacute;n</span>
+        </h1>
+        <p class="hero__specialties">
+          Especialista en <strong>Marketing Digital</strong> & <strong>Gesti&oacute;n de Calidad</strong>
+        </p>
+        <p class="hero__lead">
+          Busco desempe&ntilde;arme en el &aacute;rea administrativa aplicando mis habilidades en gesti&oacute;n de
+          recursos, organizaci&oacute;n y <span class="highlight">optimizaci&oacute;n estrat&eacute;gica</span> para el crecimiento empresarial.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary">Contactarme</a>
+          <a href="https://docs.google.com/document/d/15dtKNh1wa1YpUvAlnbI3xtRK2H7fjJJLFDD2ftzlCQM/export?format=pdf" class="btn btn--outline" target="_blank" download="CV-Yesica-Chevichuk.pdf"><i class="fa-solid fa-download"></i> Descargar CV</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat">
+            <div class="stat__icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="stat__data">
+              <span class="stat__number">+7</span>
+              <span class="stat__label">A&ntilde;os de exp.</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__icon stat__icon--alt"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="stat__data">
+              <span class="stat__number">+40</span>
+              <span class="stat__label">Proyectos</span>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat__icon stat__icon--success"><i class="fa-solid fa-bolt"></i></div>
+            <div class="stat__data">
+              <span class="stat__number">+25%</span>
+              <span class="stat__label">Eficiencia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal reveal--fade-left">
+        <div class="hero__image-frame">
+          <div class="hero__image-bg"></div>
+          <img src="2.jpg" alt="Y&eacute;sica Chevichuk" class="hero__img">
+          <div class="hero__floating-card">
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Estratega Digital</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre-mi" class="section about">
+    <div class="container grid-2">
+      <div class="about__visual reveal reveal--fade-left">
+        <div class="about__image-wrapper">
+          <img src="1.jpg" alt="Sobre m&iacute;" class="about__img">
+          <div class="about__accent"></div>
+        </div>
+      </div>
+      <div class="about__content reveal reveal--fade-right">
+        <h2 class="section__title">Sobre m&iacute;</h2>
+        <p class="section__description">
+          Soy t&eacute;cnica en administraci&oacute;n y <span class="highlight">marketing</span>, especializada en mejorar procesos y potenciar negocios con
+          estrategias enfocadas y efectivas. Mi enfoque combina la rigurosidad administrativa con la creatividad del
+          <span class="highlight">marketing digital</span>.
+        </p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-card__icon"><i class="fa-solid fa-folder-tree"></i></div>
+            <h3>Gesti&oacute;n Administrativa</h3>
+            <p>Ordenamos tus <span class="highlight">procesos internos</span> para ganar en eficiencia.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Planificaci&oacute;n Estrat&eacute;gica</h3>
+            <p>Desarrollamos estrategias eficaces para alcanzar <span class="highlight">objetivos</span>.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-card__icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <h3>Marketing Digital</h3>
+            <p>Impulsamos tu presencia <span class="highlight">online</span> y generamos leads de calidad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia" class="section experience-section">
+    <div class="container">
+      <div class="section__header center reveal">
+        <h2 class="section__title">Mi Experiencia</h2>
+        <p class="section__subtitle">Trayectoria profesional en gesti&oacute;n y desarrollo comercial.</p>
+      </div>
+
+      <div class="experience-grid">
+        <!-- Vertical Line for design -->
+        <div class="experience-card">
+          <div class="experience-card__icon"><i class="fa-solid fa-building-columns"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Administrativo</h3>
+              <span class="experience-card__date">2025 - Actualidad</span>
+            </div>
+            <p class="experience-card__company">Bromatolog&iacute;a - Municipalidad de Hurlingham</p>
+            <ul class="experience-card__list">
+              <li><span class="highlight">Gesti&oacute;n administrativa</span> de habilitaciones log&iacute;sticas.</li>
+              <li>Control y verificaci&oacute;n de documentaci&oacute;n reglamentaria.</li>
+              <li>Elaboraci&oacute;n de informes t&eacute;cnicos y actas de inspecci&oacute;n.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-card__icon experience-card__icon--alt"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Especialista en Marketing Digital</h3>
+              <span class="experience-card__date">2019 - 2024</span>
+            </div>
+            <p class="experience-card__company">Freelance & Retail Executive</p>
+            <ul class="experience-card__list">
+              <li><span class="highlight">Gesti&oacute;n de estrategias</span> digitales y campañas publicitarias.</li>
+              <li>Direcci&oacute;n de equipos de ventas y cumplimiento de objetivos.</li>
+              <li>An&aacute;lisis de m&eacute;tricas y optimizaci&oacute;n comercial.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="experience-card__icon experience-card__icon--alt"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Content Manager & Sales Executives</h3>
+              <span class="experience-card__date">2019 - 2024</span>
+            </div>
+            <p class="experience-card__company">Falabella, Retail Specialist</p>
+            <ul class="experience-card__list">
+              <li>Atenci&oacute;n al cliente y asesoramiento especializado.</li>
+              <li>Gesti&oacute;n de inventario y cumplimiento de objetivos.</li>
+              <li>Liderazgo en procesos de postventa y fidelizaci&oacute;n.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-card__icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Auxiliar Administrativo</h3>
+              <span class="experience-card__date">2019 - 2019</span>
+            </div>
+            <p class="experience-card__company">Estudio Jur&iacute;dico - Buenos Aires</p>
+            <ul class="experience-card__list">
+              <li>Asistencia en tareas legales y coordinaci&oacute;n de reuniones.</li>
+              <li>Gesti&oacute;n de tr&aacute;mites judiciales y administrativos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="experience-card__icon experience-card__icon--accent"><i class="fa-solid fa-plane-up"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Asesora Comercial Turismo</h3>
+              <span class="experience-card__date">2018 - 2018</span>
+            </div>
+            <p class="experience-card__company">Agencia de Viajes Star</p>
+            <ul class="experience-card__list">
+              <li>Planificaci&oacute;n y gesti&oacute;n integral de servicios tur&iacute;sticos.</li>
+              <li>Emisi&oacute;n de boletos y administraci&oacute;n de paquetes.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="experience-card__icon experience-card__icon--accent"><i class="fa-solid fa-users-gear"></i></div>
+          <div class="experience-card__content">
+            <div class="experience-card__header">
+              <h3>Gerente de Ventas</h3>
+              <span class="experience-card__date">2015 - 2018</span>
+            </div>
+            <p class="experience-card__company">Avon & Agencias de Turismo</p>
+            <ul class="experience-card__list">
+              <li>Liderazgo de equipos de alto rendimiento.</li>
+              <li>Desarrollo de estrategias de fidelizaci&oacute;n de clientes.</li>
+              <li>Gesti&oacute;n de proveedores y servicios tur&iacute;sticos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="educacion" class="section education-bg">
+    <div class="container grid-2">
+      <div class="education__content reveal reveal--fade-left">
+        <h2 class="section__title">Formaci&oacute;n Acad&eacute;mica</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <span class="timeline-item__year">Marzo 2021 - Diciembre 2023</span>
+              <h3>Tecnicatura en Administraci&oacute;n de Empresas</h3>
+              <p class="education__univ">Universidad Tecnol&oacute;gica Nacional (UTN BA)</p>
+              <p class="education__desc">Especializaci&oacute;n en <span class="highlight">industria</span>, <span class="highlight">marketing digital</span> o gesti&oacute;n de
+                calidad. Formaci&oacute;n integral en ciencias aplicadas y tecnolog&iacute;a de gesti&oacute;n.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <span class="timeline-item__year">Marzo 2019 - Abril 2020</span>
+              <h3>Diplomatura en Marketing Digital y Social Media</h3>
+              <p class="education__univ">Universidad Tecnol&oacute;gica Nacional (UTN BA)</p>
+              <p class="education__desc">Formaci&oacute;n en <span class="highlight">redes sociales</span> y estrategias <span class="highlight">online</span> para roles como
+                Community Manager y Social Media Planner.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-item__marker"></div>
+            <div class="timeline-item__content">
+              <span class="timeline-item__year">Marzo 2014 - Diciembre 2015</span>
+              <h3>Direcci&oacute;n de Equipos de Ventas</h3>
+              <p class="education__univ">Universidad Siglo 21</p>
+              <p class="education__desc">Planificaci&oacute;n y gesti&oacute;n de RRHH, con nociones de calidad,
+                marketing, liderazgo y negociaci&oacute;n.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="education__skills reveal reveal--fade-right">
+        <h2 class="section__title">Experticia T&eacute;cnica</h2>
+        <div class="skills-flex">
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Gesti&oacute;n de Proyectos</span>
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Marketing Digital</span>
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Liderazgo de Equipos</span>
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Optimizaci&oacute;n de Procesos</span>
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Estrategia Comercial</span>
+          <span class="skill-tag"><i class="fa-solid fa-check"></i> Herramientas Ofim&aacute;ticas</span>
+        </div>
+        <div class="education__visual-card">
+          <img src="3.jpg" alt="Educaci&oacute;n" class="education__img">
+          <div class="education__overlay">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Formaci&oacute;n Continua</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <div class="contact-card reveal reveal--zoom">
+        <div class="contact-card__info">
+          <h2 class="contact-card__title">&iquest;Listo para empezar?</h2>
+          <p>Cont&aacute;ctame para potenciar tu proyecto o empresa.</p>
+
+          <div class="contact-methods">
+            <div class="method">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Yesica.Chevichuk@gmail.com</span>
+            </div>
+            <div class="method">
+              <i class="fa-solid fa-phone"></i>
+              <span>+54 11 2402-0869</span>
+            </div>
+            <div class="method">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Hurlingham, Buenos Aires</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card__action">
+          <a href="https://wa.me/541124020869?text=Hola%20Y%C3%A9sica,%20me%20interesa%20contactarte" class="btn btn--whatsapp" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+          </a>
+          <a href="mailto:Yesica.Chevichuk@gmail.com" class="btn btn--email" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Enviar Email</span>
+          </a>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/y%C3%A9sica-chevichuk" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/yesi_chevichuk" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__content">
+      <p>&copy; 2026 Y&eacute;sica Chevichuk. Dise&ntilde;ado para el &eacute;xito.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple Navbar change on scroll
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        nav.classList.add('navbar--scrolled');
+      } else {
+        nav.classList.remove('navbar--scrolled');
+      }
+    });
+
+    // Mobile Menu Toggle
+    const menu = document.querySelector('#mobile-menu');
+    const menuLinks = document.querySelector('.navbar__menu');
+
+    menu.addEventListener('click', () => {
+      menu.classList.toggle('is-active');
+      menuLinks.classList.toggle('active');
+    });
+
+    // Scroll Reveal Animation
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px 0px -50px 0px',
+      threshold: 0
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Force check visibility on load
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.reveal').forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.85) {
+          el.classList.add('reveal-visible');
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
