@@ -138,13 +138,13 @@ body {
 .navbar__logo {
   font-size: clamp(1.25rem, 1rem + 1.25vw, 1.5rem);
   font-weight: 700;
-  color: var(--primary);
+  color: #000;
   text-decoration: none;
   letter-spacing: -1px;
 }
 
 .logo__span {
-  color: var(--accent-dark);
+  color: var(--accent);
 }
 
 .logo-mobile {
@@ -1046,13 +1046,12 @@ body {
 
   .logo-mobile {
     display: inline-block;
-    color: var(--accent);
     font-weight: 800;
     letter-spacing: -0.5px;
   }
 
   .logo-mobile__first {
-    color: var(--primary);
+    color: #000;
   }
 
   .section {
