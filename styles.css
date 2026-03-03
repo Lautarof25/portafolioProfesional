@@ -143,6 +143,14 @@ body {
   letter-spacing: -1px;
 }
 
+.logo__span {
+  color: var(--accent-dark);
+}
+
+.logo-mobile {
+  display: none;
+}
+
 .navbar__toggle {
   display: none;
 }
@@ -267,6 +275,7 @@ body {
   min-height: 90vh;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .hero__bg {
@@ -484,6 +493,7 @@ body {
 /* About Section */
 .section {
   padding: clamp(60px, 8vw, 100px) 0;
+  overflow: hidden;
 }
 
 .section__title {
@@ -825,6 +835,7 @@ body {
 /* Contact */
 .contact-section {
   padding-bottom: clamp(3rem, 6vw, 5rem);
+  overflow: hidden;
 }
 
 .contact-card {
@@ -914,6 +925,8 @@ body {
   background: rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-sm);
   transition: var(--transition);
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .method:hover {
@@ -1027,8 +1040,40 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo-desktop {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: inline-block;
+    color: var(--accent);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  .logo-mobile__first {
+    color: var(--primary);
+  }
+
   .section {
     padding: clamp(40px, 8vw, 60px) 0;
+  }
+
+  .hero__image-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-card::before {
+    right: -20%;
+    width: clamp(200px, 60vw, 300px);
+    height: clamp(200px, 60vw, 300px);
+  }
+
+  .contact-card::after {
+    left: -20%;
+    width: clamp(150px, 50vw, 250px);
+    height: clamp(150px, 50vw, 250px);
   }
 
   .container {
@@ -1073,20 +1118,20 @@ body {
   }
 
   .contact-card {
-    padding: clamp(0.75rem, 4vw, 1.5rem);
+    padding: clamp(1.5rem, 6vw, 2.5rem);
     text-align: center;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1.5rem;
     border-radius: var(--radius-md);
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    overflow: visible;
-    /* Restore visibility to avoid "cortado" feeling */
+    overflow: hidden;
   }
 
   .contact-card__info {
     width: 100%;
+    min-width: 0;
     text-align: center;
     padding: 0;
   }
@@ -1134,7 +1179,8 @@ body {
   }
 
   .method span {
-    word-break: break-all;
+    word-break: break-word;
+    overflow-wrap: anywhere;
   }
 
   .contact-card__action {
@@ -1277,8 +1323,7 @@ body {
   }
 
   .contact-card {
-    gap: 1.5rem;
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
   .contact-card__action .btn {
