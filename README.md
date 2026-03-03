@@ -1,6 +1,6 @@
 # Portafolio Profesional - Yésica Chevichuk
 
-Portafolio web profesional desarrollado para展示 las habilidades, experiencia y servicios de Yésica Chevichuk, técnica en Administración con especialización en Marketing Digital y Gestión de Calidad.
+Portafolio web profesional desarrollado para las habilidades, experiencia y servicios de Yésica Chevichuk, técnica en Administración con especialización en Marketing Digital y Gestión de Calidad.
 
 ## 🌐 Vista Previa
 
